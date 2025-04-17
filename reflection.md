@@ -6,7 +6,7 @@ These exercises were really helpful for learning the basics of HTML. I always fe
 
 ### Accessibility
 
-Enter your reflections on this section here.
+We had covered most of the tools needed to complete this exercise in class and in the first homework assignment, so it felt pretty simple to do. We went over ARIA a little bit in class, but I still feel like I don't really understand it, so it might have been helpful to do some exercises with ARIA.
 
 ### CSS
 
