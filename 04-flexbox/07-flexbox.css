@@ -80,6 +80,7 @@
   height: 300px;
   flex-direction: column;
   flex-wrap: wrap;
+  align-content: stretch;
 }
 
 .flex-container-6 .flex-item {
