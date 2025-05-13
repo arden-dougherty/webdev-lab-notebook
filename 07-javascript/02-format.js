@@ -4,7 +4,20 @@ const formatItems = (input) => {
   // for reference, see the MDN Number page:
   // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
 
-  return input;
+  var inputFormatted = "";
+  var len = input.length;
+  var i = 0;
+
+  while (i < len - 1) {
+    let elementFormatted = Number.parseFloat(input[i]).toFixed(3);
+    inputFormatted = inputFormatted.concat(elementFormatted, ", ");
+    ++i;
+  }
+
+  let elementFormatted = Number.parseFloat(input[i]).toFixed(3);
+  inputFormatted = inputFormatted.concat(elementFormatted);
+
+  return inputFormatted;
 };
 
 console.log(formatItems([1, 4, 17, 26, 41]));
