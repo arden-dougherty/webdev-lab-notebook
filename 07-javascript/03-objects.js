@@ -27,18 +27,7 @@ const printItems = () => {
   // return a string of the concatenated key in result, separated by commas
   keys = Object.keys(result);
 
-  var keysFormatted = "";
-  var len = keys.length;
-  var i = 0;
-
-  while (i < len - 1) {
-    keysFormatted = keysFormatted.concat(keys[i], ", ");
-    ++i;
-  }
-
-  keysFormatted = keysFormatted.concat(keys[i]);
-
-  return keysFormatted;
+  return keys.join(", ");
 };
 
 insertItem("hello", "world");
